@@ -14,7 +14,7 @@ export default function QuizResult({
 
   return (
     <div className="mx-auto">
-      <h1 className="
+      <h1 className={`
           text-xl font-extrabold tracking-tight
           md:text-2xl lg:text-3xl xl:text-4xl
           bg-gradient-to-r
@@ -23,7 +23,7 @@ export default function QuizResult({
           bg-clip-text text-transparent
           drop-shadow-[0_3px_10px_rgba(0,0,0,0.45)]
           dark:drop-shadow-[0_0_45px_rgba(168,85,247,0.6)]
-        ">
+        `}>
         <Trophy className="h-6 w-6 text-yellow-500" />
         Quiz Results
       </h1>

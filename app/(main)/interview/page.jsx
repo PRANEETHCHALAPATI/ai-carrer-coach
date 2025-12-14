@@ -9,7 +9,7 @@ export default async function InterviewPrepPage() {
   return (
     <div>
       <div className="flex items-center justify-between mb-5">
-        <h1 className="
+        <h1 className={`
         text-2xl font-extrabold tracking-tight
           md:text-3xl lg:text-4xl xl:text-6xl
           bg-gradient-to-r
@@ -18,7 +18,7 @@ export default async function InterviewPrepPage() {
           bg-clip-text text-transparent
           drop-shadow-[0_3px_10px_rgba(0,0,0,0.45)]
           dark:drop-shadow-[0_0_45px_rgba(168,85,247,0.6)]
-        ">
+        `}>
           Interview Preparation
         </h1>
       </div>

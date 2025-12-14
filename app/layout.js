@@ -43,17 +43,17 @@ export default function RootLayout({ children }) {
            <footer className="relative overflow-hidden">
   {/* Background */}
   <div
-    className="
+    className={`
       absolute inset-0
       bg-gradient-to-br
       from-indigo-50 via-white to-cyan-50
       dark:from-[#0b0b12] dark:via-[#050505] dark:to-[#0b0b12]
-    "
+    `}
   />
 
   {/* Subtle grid / noise */}
   <div
-    className="
+    className={`
       absolute inset-0
       opacity-40
       bg-[linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px),
@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
       bg-[size:32px_32px]
       dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),
           linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)]
-    "
+    `}
   />
 
   {/* Content */}

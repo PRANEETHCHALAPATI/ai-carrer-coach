@@ -188,7 +188,7 @@ export default function LandingPage() {
       <section className="w-full">
         <div className="mx-auto py-24 gradient rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
-            <h2 className="
+            <h2 className={`
           text-3xl font-extrabold tracking-tight
           md:text-4xl lg:text-5xl xl:text-6xl
           bg-gradient-to-r
@@ -197,7 +197,7 @@ export default function LandingPage() {
           bg-clip-text text-transparent
           drop-shadow-[0_3px_10px_rgba(0,0,0,0.45)]
           dark:drop-shadow-[0_0_45px_rgba(168,85,247,0.6)]
-        ">
+        `}>
               Ready to Accelerate Your Career?
             </h2>
             <p className="mx-auto max-w-[600px]  md:text-xl">

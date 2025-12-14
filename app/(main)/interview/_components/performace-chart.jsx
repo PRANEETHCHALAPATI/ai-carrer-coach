@@ -35,7 +35,7 @@ export default function PerformanceChart({ assessments }) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="
+        <CardTitle className={`
           text-xl font-extrabold tracking-tight
           md:text-2xl lg:text-3xl xl:text-4xl
           bg-gradient-to-r
@@ -44,7 +44,7 @@ export default function PerformanceChart({ assessments }) {
           bg-clip-text text-transparent
           drop-shadow-[0_3px_10px_rgba(0,0,0,0.45)]
           dark:drop-shadow-[0_0_45px_rgba(168,85,247,0.6)]
-        ">
+        `}>
           Performance Trend
         </CardTitle>
         <CardDescription>Your quiz scores over time</CardDescription>
