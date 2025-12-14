@@ -3,7 +3,9 @@ const nextConfig = {
   reactCompiler: true,
 
   experimental: {
-    turbo: false,
+    turbo: {
+      enabled: false,
+    },
   },
 
   images: {
