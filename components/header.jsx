@@ -32,11 +32,7 @@ export default async function Header() {
   width={400}
   height={120}
   priority
-  className="
-    h-20 md:h-24 lg:h-28
-    w-auto
-    object-contain
-  "
+  className=" h-20 md:h-24 lg:h-28 w-auto object-contain"
 />
 
         </Link>
