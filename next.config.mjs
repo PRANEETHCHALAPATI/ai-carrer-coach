@@ -1,8 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
+
+  experimental: {
+    turbo: false,
+  },
+
   images: {
-    domains: ["randomuser.me"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "randomuser.me",
+      },
+    ],
   },
 };
 
