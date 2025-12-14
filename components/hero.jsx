@@ -28,8 +28,7 @@ const HeroSection = () => {
 
   return (
    <section
-    className=" relative w-full pt-36 md:pt-48 pb-10 overflow-hidden
-  "
+    className=" relative w-full pt-36 md:pt-48 pb-10 overflow-hidden "
 >
 
   <div
