@@ -1,4 +1,4 @@
-# 🚀 AI Career Coach (Sensei)
+# AI Career Coach
 
 An **AI-powered career preparation platform** built to help users confidently prepare for job opportunities through **personalized industry insights, AI resume building, mock interviews, and cover letter generation**.
 
