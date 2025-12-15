@@ -6,14 +6,16 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const imageRef = useRef<HTMLDivElement | null>(null);
+  const imageRef = useRef(null);
 
   useEffect(() => {
     const imageElement = imageRef.current;
-    if (!imageElement) return;
 
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      const scrollPosition = window.scrollY;
+      const scrollThreshold = 100;
+
+      if (scrollPosition > scrollThreshold) {
         imageElement.classList.add("scrolled");
       } else {
         imageElement.classList.remove("scrolled");
@@ -25,7 +27,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section
+<section
       className={`relative w-full pt-36 md:pt-48 pb-16 overflow-hidden`}
     >
       {/* GRID BACKGROUND */}
