@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+          <link rel="icon" href="/logo_1.png" sizes="any" />
         </head>
         <body className={`${nunito.className}`}>
           <ThemeProvider
