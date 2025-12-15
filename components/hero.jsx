@@ -6,14 +6,13 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 const HeroSection = () => {
-  const imageRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const imageElement = imageRef.current;
+    if (!imageElement) return;
 
     const handleScroll = () => {
-      if (!imageElement) return;
-
       if (window.scrollY > 100) {
         imageElement.classList.add("scrolled");
       } else {
