@@ -67,7 +67,7 @@ body {
    GRID BACKGROUND (VISIBLE)
 ========================= */
 .grid-background {
-  position: fixed;
+ position: absolute; /* ← was fixed */
   inset: 0;
   z-index: 0;
   pointer-events: none;
@@ -111,11 +111,7 @@ body {
     );
 }
 
-/* Ensure content sits above grid */
-body > * {
-  position: relative;
-  z-index: 1;
-}
+
 
 /* =========================
    HERO IMAGE DEPTH
