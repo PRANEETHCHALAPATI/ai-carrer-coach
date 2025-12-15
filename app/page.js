@@ -185,7 +185,7 @@ export default function LandingPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full">
+      <section className="w-full bg-gradient-to-r from-purple-600 via-pink-500 to-cyan-500 text-white py-12 md:py-24">
         <div className="mx-auto py-24 gradient rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
             <h2 className={`
