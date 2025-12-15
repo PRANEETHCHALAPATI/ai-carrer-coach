@@ -33,13 +33,15 @@ const HeroSection = () => {
 
   <div
     className={`
-      absolute inset-0 z-0
-      bg-[linear-gradient(to_right,rgba(10, 1, 1, 0.06)_1px,transparent_1px),
-          linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)]
-      bg-[size:20px_20px]
-      animate-[gridMove_60s_linear_infinite]
-      pointer-events-none
-    `}
+    absolute inset-0 z-0
+    bg-[linear-gradient(to_right,rgba(0,0,0,0.06)_1px,transparent_1px),
+        linear-gradient(to_bottom,rgba(0,0,0,0.06)_1px,transparent_1px)]
+    bg-[size:40px_40px]
+    animate-[gridMove_120s_linear_infinite]
+    dark:bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),
+            linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)]
+    pointer-events-none
+  `}
   />
 
 

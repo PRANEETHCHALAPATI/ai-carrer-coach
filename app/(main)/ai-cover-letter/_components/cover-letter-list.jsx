@@ -59,8 +59,8 @@ export default function CoverLetterList({ coverLetters }) {
             <div className="flex items-start justify-between">
               <div>
                 <CardTitle className={`
-          text-3xl font-extrabold tracking-tight
-          md:text-4xl lg:text-5xl xl:text-6xl
+          text-xl font-extrabold tracking-tight
+          md:text-xl lg:text-3xl xl:text-4xl
           bg-gradient-to-r
           from-gray-900 via-gray-700 to-gray-900
           dark:from-purple-400 dark:via-pink-400 dark:to-cyan-400
